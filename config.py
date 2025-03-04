@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 24414171
+API_HASH = "5e4b23697681f45515904ad4c8e1c2b7"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "8085864684:AAFLy39y42rba7E3gbts-yu_fH517PPKKeM"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://sagarxd:<K8FVti8fC9QnjIIo>@cluster0.oavmd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002359744661
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 6442837812
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/LightningmusicUpdates"
+SUPPORT_GROUP = "https://t.me/LightningMusicChat"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQF0h9sAMFcnxlLXGit6xXoWq7UTZtzaUjn7NXIDLf8A88pOgRGSHJ2mtU8W2XQ6MUzk4j9s34g8vXBozKROnBp90sVFWpUx8t1mQAndRf64LKj7TWAd5TMGHTSIqQBv3j5QQ6lZwy0bZkWgZosomOy4pGeLEoHMVC488e6hlZs8iARFt12BrTA_29G_zMHgwBgbxdx2g9c9zNRLhus49yjsu1apf7H_EsT6V0gviaHFVl4LjtH_n5iZgDRRLxPdkL9yZlajMUFOzRxomMKRNpi3Voyc2IeyO8BdbvEiFy9JlMEfcIIplE1PKEK5eSp5ZVVEwfrGXmjsolOjYoHMEQhg1B5atgAAAAG_frfRAQ"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
