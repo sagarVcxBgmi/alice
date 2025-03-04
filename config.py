@@ -14,7 +14,7 @@ API_HASH = "5e4b23697681f45515904ad4c8e1c2b7"
 BOT_TOKEN = "8085864684:AAFLy39y42rba7E3gbts-yu_fH517PPKKeM"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://sagarxd:K8FVti8fC9QnjIIo@sagar.oavmd.mongodb.net/?retryWrites=true&w=majority&appName=sagar"
+MONGO_DB_URI = "mongodb+srv://sagarxd:sagarxd@sagar.oavmd.mongodb.net/?retryWrites=true&w=majority&appName=sagar"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
